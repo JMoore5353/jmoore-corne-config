@@ -58,11 +58,11 @@
         };
 
 	combos {
-		compatible = "zmk,keymap";
+		compatible = "zmk,combos";
 		combo_del {
 			timeout-ms = <50>;
 			key-positions = <10 11>;
 			bindings = <&kp DEL>;
-	
+		};	
 	};
 };
