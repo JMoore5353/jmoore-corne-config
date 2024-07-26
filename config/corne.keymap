@@ -56,7 +56,9 @@
                         >;
                 };
         };
+};
 
+/ {
 	combos {
 		compatible = "zmk,combos";
 		combo_del {
